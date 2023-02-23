@@ -17,8 +17,6 @@
 package com.alibaba.csp.sentinel.metrics;
 
 import com.alibaba.csp.sentinel.config.SentinelConfig;
-import com.alibaba.druid.filter.stat.StatFilter;
-import com.alibaba.druid.pool.DruidDataSource;
 import io.micrometer.core.instrument.MeterRegistry;
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.boot.actuate.autoconfigure.metrics.MetricsAutoConfiguration;
