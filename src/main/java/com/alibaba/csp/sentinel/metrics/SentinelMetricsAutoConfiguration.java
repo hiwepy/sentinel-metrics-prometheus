@@ -45,7 +45,6 @@ import java.util.Map;
 @Configuration
 @AutoConfigureAfter(value =  {MetricsAutoConfiguration.class, DataSourceAutoConfiguration.class, SimpleMetricsExportAutoConfiguration.class})
 @ConditionalOnClass({SentinelConfig.class, MeterRegistry.class})
-@ConditionalOnBean({DataSource.class, MeterRegistry.class})
 public class SentinelMetricsAutoConfiguration {
 
 	@Bean
